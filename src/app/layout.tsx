@@ -28,7 +28,7 @@ const title = `${PROFILE.name} — ${PROFILE.role}`;
 const description = PROFILE.resumeSummary;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(process.env.SITE_URL ?? "https://kravali011-bot.github.io"),
   title,
   description,
   authors: [{ name: PROFILE.name }],

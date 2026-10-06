@@ -93,10 +93,6 @@ export default function Contact() {
               </span>
             </div>
             <ul className="ct-links rv" style={{ "--i": 1 } as CSSProperties}>
-              <li>
-                <span className="mono">Phone</span>
-                <a href={PROFILE.phoneHref}>{PROFILE.phone}</a>
-              </li>
               {PROFILE.github && (
                 <li>
                   <span className="mono">GitHub</span>
@@ -165,7 +161,7 @@ const css = `
 .ct-copy{height:34px;padding:0 14px;border-radius:999px;font-size:13px;box-shadow:inset 0 0 0 1px rgba(13,13,13,.18);
   transition:background .4s var(--ease),color .4s var(--ease)}
 .ct-copy:hover{background:var(--ink);color:#fff}
-.ct-links{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 28px;max-width:860px}
+.ct-links{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;max-width:860px}
 .ct-links li{display:flex;flex-direction:column;gap:6px;padding-top:14px;border-top:1px solid var(--line);font-size:15.5px;min-width:0;overflow-wrap:anywhere}
 .ct-links .mono{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
 .ct-links a{transition:opacity .3s var(--ease)}

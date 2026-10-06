@@ -12,8 +12,6 @@ export const PROFILE = {
   initials: "RK",
   role: "Senior Full Stack Java Developer",
   email: "k.ravali011@gmail.com",
-  phone: "469-750-9774",
-  phoneHref: "tel:+14697509774",
   location: "Dallas, TX",
   linkedin: "https://www.linkedin.com/in/ravali-kethiri",
   linkedinLabel: "linkedin.com/in/ravali-kethiri",
